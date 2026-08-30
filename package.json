@@ -1,0 +1,27 @@
+{
+  "name": "jump",
+  "private": true,
+  "version": "0.1.1",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build && vite build --mode content",
+    "test": "node --test tests/*.test.ts",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "@types/chrome": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/node": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
